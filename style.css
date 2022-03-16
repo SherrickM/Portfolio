@@ -1,3 +1,58 @@
-body{
-  background: black;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Nav Menu */
+nav{
+  display: flex;
+  /* Created Space Bet */
+  justify-content: space-between;
+  padding: 5px 5px;
+  /* margin: 5px; */
+  /* border: solid black; */
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  width: 15%;
+  border: solid black;
+}
+
+li{
+  list-style: none;
+}
+
+li a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.sub-page-hero{
+  background-color: #e9dfce ;
+  min-height: 100vh;
+}
+
+.section-1{
+  display: flex;
+
+  border: solid black;
+}
+
+.flex-container-2{
+  text-align: center;
+  align-items: center;
+  border: solid red;
+}
+
+.flex-item-1 h1{
+  font-size: 48px;
+}
+
+.flex-item-2{
+  font-size: 24px;
+  border: solid green;
 }
