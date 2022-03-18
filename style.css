@@ -109,4 +109,53 @@ span{
   border-bottom:  solid #f15927 2px;
 
 }
+/* Work CSS */
+.work{
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff ;
+}
+
+.flex-container-3{
+  border: solid #000000;
+  height: 560px;
+  width: 429px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  
+  /* justify-content: space-around; */
+}
+
+
+.work-img-1  {
+  background: url(/imgs/placeholder-1-e1533569576673-960x960.png) no-repeat center center;
+  background-size: contain;
+  border: solid red;
+  height: 275px;
+  border-radius: 15px;
+}
+.work-img-2  {
+  background: url(/imgs/placeholder-1-e1533569576673-960x960.png) no-repeat center center;
+  background-size: contain;
+  border: solid red;
+  height: 275px;
+  border-radius: 15px;
+
+}
+.work-img-3  {
+  background: url(/imgs/placeholder-1-e1533569576673-960x960.png) no-repeat center center;
+  background-size: contain;
+  border: solid red;
+  height: 275px;
+  border-radius: 15px;
+}
+
+/* .flex-container-3 h3{
+  background-color: #e9dfce;
+}
+.flex-container-3 p{
+  background-color: #e9dfce;
+} */
+
 
