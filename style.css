@@ -2,33 +2,66 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
-/* Nav Menu */
+/* Navigation Bar */
 nav{
   display: flex;
-  /* Created Space Bet */
+  /*  */
   justify-content: space-between;
-  padding: 5px 5px;
-  /* margin: 5px; */
+  padding: 20px 20px;
   /* border: solid black; */
 }
 
 nav ul{
   display: flex;
   justify-content: space-around;
-  width: 15%;
-  border: solid black;
+  width: 25%;
+  /* border: solid black; */
+  /* font-weight: 500 medium ; */
+}
+
+h1{
+  padding-top: 15px;
 }
 
 li{
   list-style: none;
+  padding-top: 15px ;
 }
+
+
 
 li a{
   text-decoration: none;
   cursor: pointer;
+  color: #f15927 ;
+  font-size: 16px;
+  font-weight: 500,medium;
+
+  
 }
+
+li a:hover{
+  border-bottom: solid #35acfc 2px;
+}
+/* Nav btn styling */
+button a{
+  text-decoration: none;
+  color: #f15927 ;
+}
+ button{
+   
+   width: 130px;
+   height: 50px;
+   font-weight: 500;
+   border-radius: 15px;
+   /* opacity: .7; */
+   background-color: #ffffff;
+   
+   
+ }
 
 
 .sub-page-hero{
@@ -48,9 +81,7 @@ li a{
   border: solid red;
 }
 
-.flex-item-1 h1{
-  font-size: 48px;
-}
+
 
 .flex-item-2{
   font-size: 24px;
