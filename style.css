@@ -53,16 +53,14 @@ button a{
 }
  button{
    
-   width: 130px;
+   width: 150px;
    height: 50px;
    font-weight: 500;
    border-radius: 15px;
-   /* opacity: .7; */
    background-color: #ffffff;
-   
+   border: #ffffff;
    
  }
-
 
 .sub-page-hero{
   background-color: #e9dfce ;
@@ -71,19 +69,44 @@ button a{
 
 .section-1{
   display: flex;
-
-  border: solid black;
+  margin-top: 10vh;
+  /* justify-content: space-around; */
+  /* border: solid black; */
 }
-
+.logo-img{
+  background: url(/imgs/sm2-1\ copy.png) no-repeat center center;
+  background-size: contain;
+  height: 70vh;
+  width: 50vw;
+}
 .flex-container-2{
-  text-align: center;
+  /* text-align: center; */
   align-items: center;
-  border: solid red;
+  /* border: solid red; */
+  font-size: 72px;
+  padding: 30px;
+  width: 610px;
 }
 
-
+span{
+  color: #f15927;
+}
 
 .flex-item-2{
-  font-size: 24px;
-  border: solid green;
+  font-size: 3rem;
+  /* border: solid green; */
+  text-align: center;
+  /* color: #fff; */
 }
+
+.flex-item-2 a {
+  text-decoration: none;
+  color: #000000;
+  /* opacity: .5; */
+}
+
+.flex-item-2 a i:hover{
+  border-bottom:  solid #f15927 2px;
+
+}
+
