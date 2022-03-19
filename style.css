@@ -113,11 +113,20 @@ span{
 .work{
   display: flex;
   justify-content: space-around;
-  background-color: #ffffff ;
+  height: 100vh;
+  /* background-color: #e9dfce ; */
 }
-
+h2 {
+  text-align: center;
+  font-size: 72px;
+  font-weight: 400;  
+  margin-top: 10px;
+  padding-bottom: 10px;
+  /* background-color: #e9dfce; */
+}
 .flex-container-3{
   border: solid #000000;
+  /* background-color: #ffffff; */
   height: 560px;
   width: 429px;
   display: flex;
@@ -157,5 +166,39 @@ span{
 .flex-container-3 p{
   background-color: #e9dfce;
 } */
+
+/* About Section */
+
+.about {
+  border: solid black;
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  
+}
+.flex-container-4 {
+  display: flex;
+  flex-direction: column;
+  border: solid red;
+  height: 560px;
+  width: 429px;
+  border-radius: 15px;
+}
+.flex-container-5 {
+  display: flex;
+  flex-direction: column;
+  border: solid red;
+  height: 560px;
+  width: 689px;
+  border-radius: 15px;
+}
+
+.about-img {
+  background: url(/imgs/placeholder-1-e1533569576673-960x960.png) no-repeat center center;
+  background-size: contain;
+  border: solid pink;
+  height: 575px;
+  border-radius: 15px;
+}
 
 
