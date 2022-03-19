@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
+  /* background-color: #e9dfce; */
 }
 
 /* Navigation Bar */
@@ -111,22 +112,30 @@ span{
 }
 /* Work CSS */
 .work{
+  /* display: flex;
+   */
+  background-color: #e9dfce ;
+  height: 100vh;
+}
+.flex-main-container{
   display: flex;
   justify-content: space-around;
-  height: 100vh;
-  /* background-color: #e9dfce ; */
+  /* border: solid black; */
+  margin-top: 10px;
+  /* background-color: #e9dfce; */
 }
 h2 {
   text-align: center;
   font-size: 72px;
   font-weight: 400;  
-  margin-top: 10px;
+  /* margin-top: 10px; */
   padding-bottom: 10px;
+  border-top: solid #000000;
   /* background-color: #e9dfce; */
 }
 .flex-container-3{
-  border: solid #000000;
-  /* background-color: #ffffff; */
+  /* border: solid #000000; */
+  background-color: #ffffff;
   height: 560px;
   width: 429px;
   display: flex;
@@ -160,6 +169,17 @@ h2 {
   border-radius: 15px;
 }
 
+.flex-item-5 h3{
+  text-align: center;
+  font-size: 24px ;
+  padding: 10px 10px 0px 0px;
+}
+.flex-item-5 p{
+  text-align: center;
+  padding: 10px 10px 0px 0px;
+  line-height: 1.5;
+}
+
 /* .flex-container-3 h3{
   background-color: #e9dfce;
 }
@@ -173,6 +193,7 @@ h2 {
   border: solid black;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   height: 100vh;
   
 }
@@ -187,6 +208,7 @@ h2 {
 .flex-container-5 {
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
   border: solid red;
   height: 560px;
   width: 689px;
