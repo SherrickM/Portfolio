@@ -76,7 +76,7 @@ button a{
   /* border: solid black; */
 }
 .logo-img{
-  background: url(/imgs/sm2-1\ copy.png) no-repeat center center;
+  background: url(imgs/sm2-1\ copy.png) no-repeat center center;
   background-size: contain;
   height: 70vh;
   width: 50vw;
