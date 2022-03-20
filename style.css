@@ -147,24 +147,30 @@ h2 {
 
 
 .work-img-1  {
-  background: url(/imgs/placeholder-1-e1533569576673-960x960.png) no-repeat center center;
+  background: url(/imgs/Screen\ Shot\ 2022-03-20\ at\ 8.33.05\ AM.png) no-repeat center center;
   background-size: contain;
-  border: solid red;
+  border: solid #000000;
   height: 275px;
   border-radius: 15px;
+  padding: 10px 10px;
+}
+
+.work-img-1:hover{
+  position: relative;
+  transform: 1;
 }
 .work-img-2  {
-  background: url(/imgs/placeholder-1-e1533569576673-960x960.png) no-repeat center center;
+  background: url(/imgs/we_are_just_chill.png) no-repeat center center;
   background-size: contain;
-  border: solid red;
+  border: solid #000000;
   height: 275px;
   border-radius: 15px;
 
 }
 .work-img-3  {
-  background: url(/imgs/placeholder-1-e1533569576673-960x960.png) no-repeat center center;
+  background: url(/imgs/Screen\ Shot\ 2022-03-20\ at\ 9.12.54\ AM.png) no-repeat center center;
   background-size: contain;
-  border: solid red;
+  border: solid #000000;
   height: 275px;
   border-radius: 15px;
 }
@@ -189,21 +195,39 @@ h2 {
 
 /* About Section */
 
-.about {
-  border: solid black;
+.about{
+  /* border: solid #000000; */
+   height: 100vh;
+   background-color: #e9dfce;
+
+}
+
+.flex-container-main-2 {
+  /* border: solid blue; */
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
   
 }
 .flex-container-4 {
   display: flex;
+  background-color: #ffffff;
   flex-direction: column;
-  border: solid red;
+  border: solid #000000;
   height: 560px;
   width: 429px;
   border-radius: 15px;
+}
+
+.flex-container-4 h3{
+  font-size: 36px;
+  text-align: center;
+}
+
+.flex-container-4 p{
+  text-align: center;
+  padding-top: 20px ;
 }
 .flex-container-5 {
   display: flex;
