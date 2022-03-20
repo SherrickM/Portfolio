@@ -241,7 +241,7 @@ h2 {
 }
 
 .about-img {
-  background: url(/imgs/IMG_2223.png) no-repeat center center ;
+  background: url(IMG_2223.png) no-repeat center center ;
   background-size: cover;
   /* border: solid pink; */
   height: 575px;
