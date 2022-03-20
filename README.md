@@ -11,4 +11,4 @@ THEN I am presented with the developer's name, a recent photo or avatar, and lin
 - WHEN I resize the page or view the site on various screens and devices THEN I am presented with a responsive layout that adapts to my viewport
 
 ### GitHub URL
-> Link
+> Link https://sherrickm.github.io/Portfolio/
